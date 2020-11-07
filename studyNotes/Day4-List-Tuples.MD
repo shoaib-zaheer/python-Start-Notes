@@ -24,3 +24,20 @@ friends = ["Day", "Midday", "Evening", "Night", "Midnight"]
 friends[2] = "Sunday"
 print(friends[2])
 ```
+## Tuples
+
+- Similar to list but once it is created it is unchangeable, we can add in it, but can not modify the existed element's.
+```python
+tuple_one = (4, 5)
+tuple_two = (3, 3),(9, 7),(4, 7)
+print(tuple_one)
+print(tuple_two)
+```
+- we can add tuples inside list also, we can not change value inside tuples
+```python
+tuple_one = (4, 5)
+tuple_two = [(3, 3),(9, 7),(4, 7)]
+tuple_two.insert(1,(5, 5))
+print(tuple_one)
+print(tuple_two)
+```
