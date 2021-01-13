@@ -30,8 +30,8 @@ print(friends[2])
 ```python
 tuple_one = (4, 5)
 tuple_two = (3, 3),(9, 7),(4, 7)
-print(tuple_one)
-print(tuple_two)
+print(tuple_one[0])
+print(tuple_two[1])
 ```
 - we can add tuples inside list also, we can not change value inside tuples
 ```python
